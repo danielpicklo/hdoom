@@ -1,0 +1,12 @@
+{
+  "uid": "hdoom_card",
+  "type": "card",
+  "config": {
+    "name": "HDOOM",
+    "location": "crm.record.tab",
+    "entrypoint": "/app/cards/DOOM.tsx",
+    "objectTypes": [
+      "contacts"
+    ]
+  }
+}
