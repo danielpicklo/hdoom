@@ -5,12 +5,6 @@
       {
         "module": "DOOM.tsx",
         "renderedExports": []
-      },
-      {
-        "module": "/Users/danielpicklo/Documents/CURSOR/FREELANCE/LINKEDIN/hdoom/hdoom/src/app/doom/doomgeneric.js",
-        "renderedExports": [
-          "default"
-        ]
       }
     ],
     "external": [

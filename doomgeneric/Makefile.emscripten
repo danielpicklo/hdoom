@@ -11,8 +11,8 @@ SDL_LIBS =
 
 
 CC=emcc
-CFLAGS+= $(SDL_CFLAGS) -s USE_SDL=2 -s WASM=0 -s ALLOW_MEMORY_GROWTH=1 -s INITIAL_MEMORY=16777216 -s MODULARIZE=1 -s EXPORT_ES6=1 -s EXPORT_NAME="DoomModule"
-LDFLAGS+=--preload-file doom1.wad #--preload-file timidity.cfg --preload-file dgguspat
+CFLAGS+= $(SDL_CFLAGS) -s USE_SDL=2 -s WASM=0 -s ALLOW_MEMORY_GROWTH=1 -s INITIAL_MEMORY=16777216
+LDFLAGS+= --preload-file doom1.wad -s ENVIRONMENT=web -s MODULARIZE=1 -s EXPORT_ES6=1 -s EXPORT_NAME="DoomModule" -s WASM=0 -s SINGLE_FILE=1
 LIBS+=-lm -lc $(SDL_LIBS)
 
 # subdirectory for objects
