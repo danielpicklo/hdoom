@@ -62,8 +62,7 @@
         "module": "node_modules/@hubspot/ui-extensions/dist/shared/remoteComponents.js",
         "renderedExports": [
           "__hubSpotComponentRegistry",
-          "Button",
-          "Flex"
+          "Button"
         ]
       },
       {

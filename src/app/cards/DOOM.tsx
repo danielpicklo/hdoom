@@ -9,10 +9,10 @@ const Extension = ({ openIframe }) => {
   const handleClick = () => {
     openIframe(
       {
-        uri: "https://wikipedia.org/",
-        height: 1000,
-        width: 1000,
-        title: "Wikipedia in an iframe",
+        uri: "http://localhost:8000/_index.html",
+        height: 420,
+        width: 640,
+        title: "HDOOM",
         flush: true,
       },
       () => console.log("This message will display upon closing the modal.")
@@ -21,8 +21,7 @@ const Extension = ({ openIframe }) => {
 
   return (
     <>
-      <Flex>Hello, world!</Flex>
-      <Button onClick={handleClick}>Load DOOM</Button>
+      <Button onClick={handleClick}>Load DOOM?</Button>
     </>
   );
 };
