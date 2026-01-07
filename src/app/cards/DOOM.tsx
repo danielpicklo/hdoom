@@ -8,19 +8,10 @@ const Extension = ({ context }) => {
 
   return (
     <>
-      <Flex>Hello, world!</Flex>
-      <Flex>Hello, world!</Flex>
-      <Flex>Hello, world!</Flex>
-      <Flex>Hello, world!</Flex>
-      <Flex>Hello, world!</Flex>
-      <Flex>Hello, world!</Flex>
-      <Flex>Hello, world!</Flex>
-      <Flex>Hello, world!</Flex>
-      <Flex>Hello, world!</Flex>
-
-      <Flex><Text>Hello, world!</Text></Flex>
-      <Flex><Text>Hello, world!</Text></Flex>
-      <Flex><Text>Hello, world!</Text></Flex>
+      <Flex><Text variant="microcopy">////////////////////////////////
+        //////////////////////////</Text></Flex>
+      <Flex><Text variant="microcopy">//////////////////////////////////////////////////////////</Text></Flex>
+      <Flex><Text variant="microcopy">//////////////////////////////////////////////////////////</Text></Flex>
     </>
   );
 };
