@@ -1,4 +1,6 @@
 //doomgeneric emscripten port
+#include <ctype.h>
+
 
 #include "doomkeys.h"
 #include "m_argv.h"
@@ -156,7 +158,8 @@ void DG_Init()
   // Render the rect to the screen
   SDL_RenderPresent(renderer);
 
-  texture = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_RGB888, SDL_TEXTUREACCESS_TARGET, DOOMGENERIC_RESX, DOOMGENERIC_RESY);
+  texture = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_RGB888, SDL_TEXTUREACCESS_STREAMING, DOOMGENERIC_RESX, DOOMGENERIC_RESY);
+
 }
 
 void DG_DrawFrame()
